@@ -1,6 +1,6 @@
 import Search from "./SearchBar.module.css";
-import Logo from "../../images/Logo.svg";
 import { useMemo, useEffect, useState } from "react";
+import Logo from "../../public/Logo.svg";
 import data from "../../stays.json";
 import { getContext } from "../Context";
 import MobilSearch from "./MobilSearch";
