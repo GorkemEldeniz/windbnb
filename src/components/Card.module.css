@@ -1,0 +1,61 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  gap: 1rem;
+}
+
+.card>img {
+  border-radius: 1.5rem;
+  width: 100%;
+  object-fit: contain;
+  max-height: 230px;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.details>* {
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.details>* {
+  color: #828282;
+}
+
+/* .details>*:nth-child(2) {
+  color: #4F4F4F;
+} */
+
+.details>*:nth-last-child(1) {
+  color: #333333;
+  font-size: 1rem;
+}
+
+.score {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+.score>i {
+  color: #EB5757;
+}
+
+.tag {
+  font-family: 'Montserrat';
+  font-weight: bolder;
+  display: flex;
+  align-items: center;
+  color: #4F4F4F;
+  justify-content: center;
+  border: 1px solid #4F4F4F;
+  border-radius: 0.75rem;
+  padding: 0 0.5rem;
+}

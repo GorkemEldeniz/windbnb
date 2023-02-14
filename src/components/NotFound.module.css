@@ -1,0 +1,7 @@
+article {
+  width: 100%;
+  display: grid;
+  place-items: center;
+  font-size: 4rem;
+  letter-spacing: 0.1ch;
+}
