@@ -2,7 +2,7 @@ import Search from "./SearchBar.module.css";
 import { useMemo, useEffect, useState } from "react";
 import Logo from "../../public/images/Logo.svg";
 import data from "../../stays.json";
-import { getContext } from "../Context";
+import { getContext } from "../Context/index";
 import MobilSearch from "./MobilSearch";
 
 function SearchBar() {
