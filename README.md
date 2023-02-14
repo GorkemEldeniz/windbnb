@@ -36,7 +36,7 @@
 
 ## Overview
 
-![screenshot](./images/screencapture-localhost-5173-2023-02-14-17_09_06.png)
+![screenshot](./public/screencapture-localhost-5173-2023-02-14-17_09_06.png)
 
 
 ### Built With
