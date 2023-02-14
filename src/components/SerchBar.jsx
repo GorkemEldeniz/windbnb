@@ -1,6 +1,5 @@
 import Search from "./SearchBar.module.css";
 import { useMemo, useEffect, useState } from "react";
-import Logo from "../images/Logo.png";
 import data from "../../stays.json";
 import { getContext } from "../Context/index";
 import MobilSearch from "./MobilSearch";
@@ -77,7 +76,11 @@ function SearchBar() {
 
 	return (
 		<nav className={Search.nav}>
-			<img className={isOpen ? Search.none : undefined} src={Logo} alt='Logo' />
+			<img
+				className={isOpen ? Search.none : undefined}
+				src='./src/images/logo.png'
+				alt='Logo'
+			/>
 			<ol
 				className={Search.sidebar}
 				style={{
